@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Poppins1;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins2;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(../images/bg-desktop.svg), var(--Violet);
+    background-repeat: repeat;
+    background-size: cover;
+    max-width: 1440px;
+    font-family: Poppins1;
+    color: white;
+}
+
+header {
+    padding: 50px;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 50px;
+    gap: 50px;
+}
+
+h1 {
+    font-family: Poppins2;
+    font-size: 40px;
+}
+
+.ilustracao {
+    max-width: 70%;
+}
+
+article {
+    padding: 60px;
+}
+
+article p {
+    font-family: OpenSans;
+    margin: 30px 0;
+    line-height: 26px;
+}
+
+article a {
+    margin: 40px 0;
+    padding: 10px 50px;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--Violet);
+    box-shadow: 0px 5px 38px -10px rgba(0,0,0,1);
+}
+
+article a:hover {
+    background-color: var(--Soft-Magenta);
+    color: white;
+    
+
+}
