@@ -62,7 +62,7 @@ h1 {
 }
 
 article {
-    padding: 70px;
+    padding:30px 150px 30px 0px;
 }
 
 article p {
@@ -89,6 +89,8 @@ article a:hover {
 footer {
     display: flex;
     justify-content: end;
+    padding-right: 150px;
+    box-sizing: border-box;
     gap: 20px;
 }
 
@@ -139,5 +141,6 @@ footer span:hover {
     footer {
         margin-top: 20px;
         justify-content: center;
+        padding-right: 0px;
     }
 }
