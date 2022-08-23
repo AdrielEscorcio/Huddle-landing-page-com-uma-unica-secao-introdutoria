@@ -49,6 +49,8 @@ header {
     grid-template-columns: 1fr 1fr;
     padding: 30px 10px;
     gap: 50px;
+    justify-items: stretch;
+    align-items: center;
 }
 
 h1 {
